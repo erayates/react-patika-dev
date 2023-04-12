@@ -1,4 +1,4 @@
-# Patika.dev React Course
+# react-patika-dev
  Patika.dev React Course exercises and homeworks added to this repository.
 
 ## Patika.dev React - Components Section
