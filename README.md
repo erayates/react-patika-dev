@@ -12,7 +12,7 @@
 * Conditioal Rendering in the Component (with && and ?)
 
 
-## Patika.dev React - Components Section
+## Patika.dev React - Props Section
 
 ### Covered topics in this section:
 * What is the Props? How to use?
