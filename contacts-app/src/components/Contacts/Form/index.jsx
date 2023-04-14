@@ -34,6 +34,8 @@ function Form({setContacts}) {
     }
   return (
     <div className='w-full'>
+          <hr className="my-4"></hr>
+        <h3 className='text-xl font-md'>Add A New Contact</h3>
         <form className='flex flex-col' onSubmit={handleSubmit}>
             <TextField name="fullname" id="outlined-basic" label="Fullname" variant="outlined" onChange={handleChange} value={form.fullname}/>
             <TextField name="phone" id="outlined-basic" label="Phone Number" variant="outlined" onChange={handleChange} value={form.phone}/>
