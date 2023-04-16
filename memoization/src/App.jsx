@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -8,10 +8,14 @@ function App() {
   const [number, setNumber] = useState(0)
   const data = useMemo(() =>{
     return {name: 'Eray'}
-  })
+  },[])
+
+  const increment = useCallback(() => {
+    return setNumber(prev => prev + 1)
+  }, [])
   return (
     <div className="App">
-      <Header number={number > 5 && 1} data={data} increment = {setNumber + 1}/>
+      <Header number={number > 5 && 1} data={data} increment = {increment}/>
       <hr></hr>
       
       <h1>{number}</h1>
