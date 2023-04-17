@@ -1,0 +1,18 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.dark{
+  height: 100vh;
+  color: #fff;
+  background-color: #242424;
+}
+
+.light{
+  height: 100vh;
+  color: #213547;
+  background-color: #ffffff;
+}
