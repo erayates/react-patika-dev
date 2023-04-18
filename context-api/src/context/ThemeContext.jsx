@@ -8,6 +8,7 @@ export const ThemeProvider = ({children}) => {
 
     useEffect(() => {
         localStorage.setItem("theme",theme);
+
     }, [theme])
 
     const values = {
