@@ -1,6 +1,15 @@
 # react-patika-dev
  Patika.dev React Course exercises and homeworks added to this repository.
 
+## Live Demos of Apps
+### Contacts App
+* https://contacts-app-react.vercel.app/
+
+### Weather App - Context Api
+* https://weather-app-context-api-rosy.vercel.app/
+
+
+
 ## Patika.dev React - Components Section
 
 ### Covered topics in this section:
